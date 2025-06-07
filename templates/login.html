@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Agent Zero</title>
+    <style>body{background:#000;color:lime;font-family:monospace;text-align:center}</style>
+</head>
+<body>
+    <h1>🕵️ Agent-Zero Login</h1>
+    <form method="POST">
+        <input name="username" placeholder="Username" /><br><br>
+        <input type="password" name="password" placeholder="Password" /><br><br>
+        <button type="submit">🗝️ Masuk</button>
+    </form>
+    {% if error %}
+    <p style="color:red">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
