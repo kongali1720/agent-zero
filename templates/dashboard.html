@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Agent Zero</title>
+    <style>body{background:#111;color:#0f0;font-family:monospace;text-align:center}</style>
+</head>
+<body>
+    <h1>💻 Agent-Zero Dashboard</h1>
+    <form method="POST">
+        <input name="target" placeholder="Target (IP/domain)" required/><br><br>
+        <select name="action">
+            <option value="whois">WHOIS Lookup</option>
+            <option value="scan">Port Scan (nmap)</option>
+        </select><br><br>
+        <button type="submit">🔍 Jalankan</button>
+    </form>
+    {% if result %}
+    <h2>Hasil</h2>
+    <pre>{{ result }}</pre>
+    {% endif %}
+    <br><a href="/logout">🚪 Keluar</a>
+</body>
+</html>
