@@ -35,10 +35,30 @@ Cocok buat pembelajaran, uji penetrasi internal, atau pamer ke teman.
 ---
 
 <div align="center">
+  
+# 🚀 Roadmap Fitur Mendatang
 
-## 📦 Fitur
+Fitur	Status	Catatan
+
+📝 Auto PDF Report	🔜 Coming Soon	Laporan hasil scanning otomatis dalam PDF
+
+🤖 Auto Recon	🔜 Coming Soon	Modul rekonstruksi otomatis untuk target
+
+🔍 Vulnerability Scan	🔜 Coming Soon	Deteksi kerentanan dengan berbagai metode
+
+🎩 Logo Agent-Zero	✅ Sudah ada	Ikon hacker topi fedora keren untuk branding
+
+☁️ Deploy ke Replit	✅ Sudah ada	Live demo mudah dijalankan dan diakses
+
+🌐 GitHub Pages Support	🔜 Dalam Rencana	Hosting UI statis untuk docs & demo ringan
 
 </div>
+
+---
+
+<div align="center">
+
+## 📦 Fitur
 
 - [x] Login Admin (username/password preset)  
 - [x] DNS Lookup, WHOIS, IP Tracker  
@@ -94,7 +114,7 @@ Buka browser ke:
 
 ---
 
-### 🔐 Login Default
+## 🔐 Login Default
 
  **Username**: `admin`
  **Password**: `1234`  
@@ -102,12 +122,36 @@ Buka browser ke:
 
 ---
 
+<div align="center">
+
+## 🖥️ Cara Deploy di Replit (Singkat)
+
+Fork repo agent-zero ke akun Replit kamu.
+
+Pastikan file requirements.txt sudah lengkap (Flask, nmap, requests, dll).
+
+Jalankan perintah python app.py di shell Replit.
+
+Set environment port jika perlu (PORT=5000).
+
+Klik tombol "Run" dan dapatkan URL live!
+
+</div>
+
+---
+
+<div align="center">
+  
 ## 📢 Disclaimer
 
 Panduan ini dibuat untuk edukasi dan meningkatkan kesadaran keamanan digital. Gunakan pengetahuan ini secara bertanggung jawab.
 
+</div>
+
 ---
 
+<div align="center">
+  
 ## 🤝 Kontribusi
 
 Pull request dan issue sangat diterima!  
@@ -116,16 +160,24 @@ Pull requests and issues are very welcome!
 Bintang ⭐ juga bikin semangat nambahin fitur baru! 💪  
 Stars ⭐ also boost motivation to add new features! 💪
 
+</div>
+
 ---
 
+<div align="center">
+  
 ## ❤️ Special Thanks
 
 Made with 🔥 by KONGALI1720 Cyber Force.  
 
 “Scan like a ghost, strike like a hammer.”  
 
+</div>
+
 ---
 
+<div align="center">
+  
 ## ✅ Gaspol coding squad Indonesia! 🚀💻
 
  Halo, Sobat Koding!  
@@ -139,6 +191,8 @@ Made with 🔥 by KONGALI1720 Cyber Force.
 
 Langsung eksekusi, langsung paham.  
 Run it directly, understand instantly.
+
+</div>
 
 ---
 
