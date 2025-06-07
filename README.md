@@ -97,8 +97,8 @@ Buka browser ke:
 ### 🔐 Login Default
 
  **Username**: `admin`
- **Password**: `****`  
-  (Disensor demi keamanan global. Cari sendiri, Agent.)_
+ **Password**: `1234`  
+  (Disensor demi keamanan global. Cari sendiri, Agent.)
 
 ---
 
